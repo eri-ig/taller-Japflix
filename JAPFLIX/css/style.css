@@ -23,6 +23,21 @@ main {
     color: orange;
 }
 
-.offcanvas-top{
-    height: fit-content;
+.dropdown-menu {
+    z-index: 1060 !important; 
+  }
+.offcanvas {
+    height: auto !important;
+    max-height: none;
+}
+
+.offcanvas-top {
+    height: 30% !important;
+    max-height: none;
+}
+body.offcanvas-backdrop {
+    overflow-y: auto;
+}
+.offcanvas {
+    overflow: visible !important;
 }
